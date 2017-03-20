@@ -1,0 +1,114 @@
+body
+{
+	background-color : grey; /* Le fond de la page sera noir */
+    color: white; /* Le texte de la page sera blanc */
+	font-family : Century Gothic, Verdana;	
+}
+h1
+{
+	font-family : Century Gothic, Verdana;
+	text-align:center;
+	font-size:22px;
+	margin-bottom : 22px;
+	
+}
+#page 
+{
+	
+    background: #fff;
+    margin-left : 100px;
+	margin-right : 100px;
+	padding-bottom : auto;
+	position : relative;
+	height : 400px;
+}
+
+html
+{
+	
+}
+
+header
+{
+}
+
+button
+{
+	font-family : Century Gothic, Verdana;
+	text-align : center;
+	/*margin-left : 4%;*/
+	margin-top : 30px;
+	width : 150px;
+	background-image:linear-gradient(white, black);
+	color : white;
+	
+}
+
+div
+{
+	
+}
+.demo-card-wide.mdl-card {
+  width: 100%;
+}
+.demo-card-wide > .mdl-card__title {
+  color: #fff;
+  height: 176px;
+  background: url('nissan-skyline.jpg') center / cover;
+}
+.demo-card-wide > .mdl-card__menu {
+  color: #fff;
+}
+
+.demo-card-wide > .mdl-card__title  > .mdl-card__title-text
+{
+	font-family :Century Gothic
+}
+
+.mdl-card__supporting-text{
+text-align : center;
+}
+
+.demo-card-wide > .mdl-card__supporting-text{
+	font-size : 16px;
+	color : white ;
+	/*background-color : black;*/
+	background-image:linear-gradient(white, black);
+	width : 100%;
+}
+
+.mdl-card__supporting-text2{
+	font-size : 16px;
+	color : white ;
+	/*background-color : black;*/
+	background-image:linear-gradient(white, black);
+	width : 200px;
+	text-align : center;
+}
+
+table{
+	margin-left : 35%;
+    border-collapse: collapse;
+}
+
+
+ .mdl-card__title1 {
+  color: #fff;
+  height: 90px;
+  width : 200px;
+  background: url('rrsport.jpg') center / cover;
+}
+
+ .mdl-card__title2 {
+  color: #fff;
+  height: 90px;
+  width : 200px;
+  background: url('p306.jpg') center / cover;
+}
+
+ .mdl-card__title3 {
+  color: #fff;
+  height: 90px;
+  width : 200px;
+  background: url('pboxster.jpg') center / cover;
+}

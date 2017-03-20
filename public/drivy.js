@@ -91,6 +91,22 @@ DRIVY = (function namespace () {
     return ~~(days * pricePerDay + distance * car.pricePerKm).toFixed(2);
   };
 
+  var cars = [{
+  'id': 'nissan',
+  'vehicule': 'nissan',
+  'img' : url('nissan-skyline.jpg')
+  'pricePerDay': 80,
+  'pricePerKm': 0.50
+}, {
+  'id': 'ferrari',
+  'pricePerDay': 60,
+  'pricePerKm': 0.30
+}, {
+  'id': 'lambo',
+  'pricePerDay': 100,
+  'pricePerKm': 0.45
+}];
+
   /**
    * Pay each actors
    *
